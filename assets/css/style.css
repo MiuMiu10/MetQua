@@ -1,0 +1,23 @@
+body {
+    background: url("../images/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.modal-body img {
+    margin-bottom: 10px;
+}
+
+.vid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
